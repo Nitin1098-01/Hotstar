@@ -57,7 +57,7 @@ node_modules/
 /public/packs
 /public/packs-test
 /public/assets
-
+# Hello world
 # Ignore yarn files
 /yarn-error.log
 yarn-debug.log*
