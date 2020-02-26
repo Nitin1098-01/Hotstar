@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @show.name %>
+</p>
+
+<p>
+  <strong>Timing:</strong>
+  <%= @show.timing %>
+</p>
+
+<p>
+  <strong>Channel:</strong>
+  <%= @show.channel.name %>
+</p>
+
+<%= image_tag  @show.image.url %>
+
+<br>
+
+<%= link_to 'Edit', edit_show_path(@show) %> |
+<%= link_to 'Back', shows_path %>

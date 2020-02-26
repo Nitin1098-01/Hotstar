@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Channel:</strong>
+  <%= @favourite.show.channel.name %>
+</p>
+
+<p>
+  <strong>Show:</strong>
+  <%= @favourite.show.name %>
+</p>
+
+
+<%= image_tag @favourite.show.image.url %><br>
+
+
+
+<%= link_to 'Edit', edit_favourite_path(@favourite) %> |
+<%= link_to 'Back', favourites_path %>
